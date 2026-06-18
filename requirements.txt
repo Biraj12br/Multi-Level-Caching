@@ -1,0 +1,15 @@
+Flask
+
+Flask-SQLAlchemy
+
+SQLAlchemy
+
+mysql-conector-python
+
+redis
+
+cachetools
+
+python-dotenv
+
+gunicorn

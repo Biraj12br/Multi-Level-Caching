@@ -1,0 +1,40 @@
+project/
+│
+├── app.py
+├── requirements.txt
+├── .env
+├── docker-compose.yml
+│
+├── app/
+│   ├── __init__.py
+│   │
+│   ├── config/
+│   │   └── config.py
+│   │
+│   ├── api/
+│   │   └── rules.py
+│   │
+│   ├── models/
+│   │   └── biller_master.py
+│   │
+│   ├── repository/
+│   │   └── biller_repository.py
+│   │
+│   ├── services/
+│   │   └── rule_service.py
+│   │
+│   ├── cache/
+│   │   ├── memory_cache.py
+│   │   └── redis_cache.py
+│   │
+│   ├── exceptions/
+│   │   └── exceptions.py
+│   │
+│   ├── handlers/
+│   │   ├── error_handler.py
+│   │   └── logger.py
+│   │
+│   └── extensions.py
+│
+└── scripts/
+    └── seed_data.py
