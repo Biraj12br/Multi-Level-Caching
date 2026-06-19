@@ -2,7 +2,7 @@
 Overview
 
 The 2-Level Cache Design project demonstrates a high-performance caching architecture using Flask, Redis, and an in-memory local cache to reduce database latency and improve application throughput.
-The application stores biller information in MYSQLDB and retrieves data through a two-layer caching mechanism before accessing the database.
+The application stores biller information in MYSQL DB and retrieves data through a two-layer caching mechanism before accessing the database.
 
 Architecture
                 Client
